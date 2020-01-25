@@ -14,7 +14,7 @@ namespace Shop.Data.Models
         public string Img { get; set; }
         public ushort Price { get; set; }
         public bool IsFavourite { get; set; }
-        public int Avalaible { get; set; }
+        public bool Avalaible { get; set; }
         public int CategoryId { get; set; }
         public virtual Category Category { get; set; }
     }
